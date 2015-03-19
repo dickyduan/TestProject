@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="Rbb-MR-mK0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="sLB-A9-nOi">
+            <objects>
+                <navigationController id="Xb6-rG-e7i" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="fgU-b3-COq"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="86L-jb-Glv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UiK-6J-ss4" kind="relationship" relationship="rootViewController" id="bkR-XC-Uw3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DO8-Lb-xic" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-272" y="-1008.2"/>
+        </scene>
+        <!--ViewController-->
+        <scene sceneID="obT-1d-Wcn">
+            <objects>
+                <viewController id="UiK-6J-ss4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qzb-Ko-18E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0sa-v5-rAj">
+                                <rect key="frame" x="144" y="185" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="avY-k8-WMD">
+                                <rect key="frame" x="88" y="248" width="105" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="点我能弹出界面">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hTt-yN-Ld8" kind="push" id="iVR-Ps-Bem"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ViewController" id="quG-6N-3S5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAs-dM-Xd7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110.39999999999998" y="-1008.2"/>
+        </scene>
+        <!--子界面-->
+        <scene sceneID="AK9-LC-u2B">
+            <objects>
+                <viewController id="hTt-yN-Ld8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Qt-O7-LIp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="子界面" id="Awq-F1-Vyu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xzv-hK-KnD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501" y="-1009"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="BCw-z2-ERH">
+            <objects>
+                <navigationController id="84Z-Rd-cga" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="1CT-Y7-b3r"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aie-7Z-RJj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hwz-bO-3fP" kind="relationship" relationship="rootViewController" id="QaA-6N-gPr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZH-qR-Vgv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-272" y="-335"/>
+        </scene>
+        <!--ViewController2-->
+        <scene sceneID="sAK-QF-nGw">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBt-wY-7ke" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="hwz-bO-3fP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="ViewController2" id="mgN-I6-KHE"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="136" y="-335"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="HJG-vl-gwH">
+            <objects>
+                <tabBarController id="Rbb-MR-mK0" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Yhl-b0-9Qy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Xb6-rG-e7i" kind="relationship" relationship="viewControllers" id="PCm-Ny-1r5"/>
+                        <segue destination="84Z-Rd-cga" kind="relationship" relationship="viewControllers" id="BOu-x9-0Sc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nwh-WM-TZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-707" y="-644"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
