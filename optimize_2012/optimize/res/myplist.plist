@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>iPhone 1G</key>
+	<array>
+		<string>ARM6</string>
+		<string>115×61×11.6mm</string>
+		<string>135g</string>
+		<string>3.5英寸</string>
+		<string>320×480</string>
+		<string>163ppi</string>
+		<string></string>
+		<string>810mAh</string>
+		<string>802.11b/g</string>
+		<string>无</string>
+		<string>2.0MP</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+	</array>
+	<key>iPhone 3G</key>
+	<array>
+		<string>ARM6</string>
+		<string>115.5×62.1×12.3mm</string>
+		<string>133g</string>
+		<string> 3.5英寸</string>
+		<string>320×480</string>
+		<string>163ppi</string>
+		<string></string>
+		<string>1150mAh</string>
+		<string>802.11b/g</string>
+		<string>v2.0</string>
+		<string>2.0MP</string>
+		<string>无</string>
+		<string>无</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+	</array>
+	<key>iPhone 3GS</key>
+	<array>
+		<string>ARM Coretex A8</string>
+		<string>115.5×62.1×12.3mm</string>
+		<string>135g</string>
+		<string>3.5英寸</string>
+		<string>320×480</string>
+		<string>163ppi</string>
+		<string></string>
+		<string>1220mAh</string>
+		<string>802.11b/g</string>
+		<string>v2.1</string>
+		<string>3.0MP</string>
+		<string>无</string>
+		<string>无</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+	</array>
+	<key>iPhone 4</key>
+	<array>
+		<string>apple A4</string>
+		<string>115.2×58.6×9.3mm</string>
+		<string>137g</string>
+		<string>3.5英寸</string>
+		<string>960×640</string>
+		<string>326ppi</string>
+		<string>3.7V</string>
+		<string>1420mAh</string>
+		<string>802.11b/g</string>
+		<string>v2.1</string>
+		<string>5.0MP</string>
+		<string>0.3 MP</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+	</array>
+	<key>iPhone 4S</key>
+	<array>
+		<string>Apple A5 (双核)</string>
+		<string>115.2×58.6×9.3mm</string>
+		<string>140g</string>
+		<string>3.5英寸</string>
+		<string>960×640</string>
+		<string>326ppi</string>
+		<string>3.7V</string>
+		<string>1420mAh</string>
+		<string>802.11b/g</string>
+		<string>4.0</string>
+		<string>8.0MP</string>
+		<string>0.3MP</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+		<string>有</string>
+	</array>
+	<key>iPod touch 2G</key>
+	<array>
+		<string>ARM11</string>
+		<string>110×61.8×8.5mm</string>
+		<string>115g</string>
+		<string> 3.5英寸</string>
+		<string>480×320</string>
+		<string>163ppi</string>
+		<string></string>
+		<string>740mAh</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+	</array>
+	<key>iPod touch 3G </key>
+	<array>
+		<string> ARM11</string>
+		<string>110×61.8×8.5mm</string>
+		<string>115g</string>
+		<string> 3.5英寸</string>
+		<string>480×320</string>
+		<string>163ppi</string>
+		<string></string>
+		<string>790mAh</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>无</string>
+		<string>无</string>
+		<string>无</string>
+		<string>有</string>
+		<string>有</string>
+		<string>无</string>
+	</array>
+	<key>iPod touch 4G</key>
+	<array>
+		<string>Apple A4</string>
+		<string>111×58.9×7.2mm</string>
+		<string>101g</string>
+		<string> 3.5英寸</string>
+		<string>960×640</string>
+		<string>326ppi</string>
+		<string></string>
+		<string>930</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>0.7MP</string>
+		<string>0.3MP</string>
+		<string>有</string>
+		<string>有</string>
+		<string>无</string>
+		<string>有</string>
+	</array>
+	<key>iPad 1G</key>
+	<array>
+		<string>Apple A4</string>
+		<string>242.8×189.7×13.4mm</string>
+		<string>680</string>
+		<string>9.7英寸</string>
+		<string>1024×768</string>
+		<string>132 ppi</string>
+		<string></string>
+		<string>6930mAh</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>无</string>
+		<string>无</string>
+		<string>有</string>
+		<string>有</string>
+		<string>无</string>
+		<string>有</string>
+	</array>
+	<key>iPad 2G</key>
+	<array>
+		<string>Apple A5 (双核)</string>
+		<string>241.2×185.7×8.8mm</string>
+		<string>601</string>
+		<string>9.7英寸</string>
+		<string>1024×768</string>
+		<string>132 ppi</string>
+		<string></string>
+		<string>6930mAh</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>70万</string>
+		<string>30万</string>
+		<string>有</string>
+		<string>有</string>
+		<string>无</string>
+		<string>有</string>
+	</array>
+	<key>iPad 3G</key>
+	<array>
+		<string>Apple A5X (双核)</string>
+		<string>241.2×185.7×9.4mm</string>
+		<string>652</string>
+		<string>9.7英寸</string>
+		<string>2048×1536</string>
+		<string>264</string>
+		<string>3.8v</string>
+		<string>11666mAh</string>
+		<string>802.11b/g</string>
+		<string>2.1 + EDR</string>
+		<string>500万</string>
+		<string>30万</string>
+		<string>有</string>
+		<string>有</string>
+		<string>无</string>
+		<string>有</string>
+	</array>
+</dict>
+</plist>

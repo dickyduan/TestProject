@@ -27,19 +27,36 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSArray *str = [[NSArray alloc] init];
-    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+//    =======================================================
+    NSMutableArray* ary = [NSMutableArray array];
+    NSString *str = [NSString stringWithFormat:@"test"];
     [str retain];
-    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
-    @autoreleasepool {
-        [str autorelease];
-    }
-    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+    [ary addObject:str];
+    NSLog(@"%@ %d",str,[str retainCount]);
+    [str retain];
     [str release];
-    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+    [str release];
+    NSLog(@"%@ %d",str,[str retainCount]);
+    [ary removeAllObjects];
+    NSLog(@"%@ %d",str,[str retainCount]);
     
-    NSNumber *weight = [[NSNumber alloc] initWithInt:20];
-    NSLog(@"weight count = %ld",(unsigned long)weight.retainCount);
+//
+    NSLog(@"%@ %d",ary,[ary retainCount]);
+//    =======================================================
+    
+//    NSArray *str = [[NSArray alloc] init];
+//    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+//    [str retain];
+//    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+//    @autoreleasepool {
+//        [str autorelease];
+//    }
+//    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+//    [str release];
+//    NSLog(@"retainCount = %lu", (unsigned long)str.retainCount);
+//    
+//    NSNumber *weight = [[NSNumber alloc] initWithInt:20];
+//    NSLog(@"weight count = %ld",(unsigned long)weight.retainCount);
     
     return YES;
 }
